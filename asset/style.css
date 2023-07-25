@@ -25,6 +25,7 @@
     height: 50px;
     width: 100%;
 }
+
 .border{
     border: 2px solid transparent;
 }
@@ -138,7 +139,7 @@ span {
 
 /* .........hero sectio ...............  */
 .hero-section {
-    background-image: url("./Image/hero_image.jpg");
+    background-image: url("./Image/hero.jpg");
     background-size: cover;
     height: 350px;
     display: flex;
@@ -160,6 +161,7 @@ span {
 
 .hero-message a {
     color: #007185;
+    text-decoration: none;
 }
 
 /* ..............content/shops-secetion...........  */
@@ -171,12 +173,11 @@ span {
 }
 
 .box {
-    /* border: 2px solid black; */
     height: 400px;
     width: 23%;
     background-color: white;
     padding: 20px 0px 15px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .box-img {
@@ -192,6 +193,120 @@ span {
     margin-right: 1rem;
 }
 
-.box-content {
+.box-content a {
     color: #007185;
+}
+
+.box-content a{
+    text-decoration: none;
+}
+
+/* ............Footer............... */
+footer {
+    margin-top: 15px;
+}
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-panel2 a{
+    text-decoration: none;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid #c7c7c7;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("./Image/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+/* .............................................................................  */
+/* .foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-panel4 a{
+    text-decoration: none;
+    color: gray;
+}
+
+.foot-panel4 h3{
+    color: white;
+}
+.foot-panel4 span1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+} */
+/* .........................................................  */
+.foot-panel5 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    /* display: flex; */
+}
+
+.pages {
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.pages a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.copyright {
+    padding-top: 5px;
 }
