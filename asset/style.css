@@ -216,9 +216,10 @@ footer {
 }
 
 .foot-panel2{
-    background-color: #222f3d;
+    /* background-color: #222f3d; */
+    background-color: #232f3e;
     color: white;
-    height: 500px;
+    height: 350px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -242,7 +243,7 @@ ul a {
     background-color: #222f3d;
     color: white;
     border-top: 0.5px solid #c7c7c7;
-    height: 70px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -288,7 +289,8 @@ ul a {
 } */
 /* .........................................................  */
 .foot-panel5 {
-    background-color: #0f1111;
+    /* background-color: #0f1111; */
+    background-color: #131a22;
     color: white;
     height: 80px;
     font-size: 0.7rem;
